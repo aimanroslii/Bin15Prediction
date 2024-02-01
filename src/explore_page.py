@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 import seaborn as sns
+import sklearn
 #import pygwalker as pyg
 
 def addValue(row):
