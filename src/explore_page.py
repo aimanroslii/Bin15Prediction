@@ -50,7 +50,7 @@ def load_data():
     return train_df
 
 df = load_data()
-
+@st.cache_data
 def show_explore_page():
     st.title("Explore Bin15 Percentage Information")
 
